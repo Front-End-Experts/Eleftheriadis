@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// colors pallete create to https://coolors.co/
+body {
+    background-color: #397367;
+}
+
+// i add grid display to have a nice organisation to my nav bar
+#navbar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2em;
+    list-style: none;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background-color: #63ccca;
+    min-height: 50px;
+}
+
+// little fine tuning here
+.nav-item {
+    font-size: large;
+    box-shadow: 1px 2px #42858c;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem 3rem;
+}
+
+// i want to give more space to services to stand out
+.nav-item:nth-child(3) {
+    grid-column: 3/5;
+}
+
+// remove ul tag decoration
+.nav-link {
+    text-decoration: none;
+    color: #35393c;
+}
+
+// add some hover effect - so we can help user understand where is clicking
+.nav-item:hover {
+    background-color: #42858c;
+    // font-weight: bold;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+// no reason to add this
+h1 {
+    margin-top: 20%;
+    margin-left: 13px;
+}
+
+// there is no reason to use e,f & g to this site but for practise reasons:
+// for example we can use (li a) instead of (.nav-link) --e / f
+// for example we can use (li > a) instead of (.nav-link) --g
+// diff between e-g is that with f solution we select only the a tags and now their children
