@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: rgb(209, 236, 227);
+}
+
+h1{
+    align-items: center;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.video-1{
+    align-self:flex-end;
+
+    max-width: 50%;
+
+
+}
+
+.video-2{
+
+    max-width: 50%;
+}

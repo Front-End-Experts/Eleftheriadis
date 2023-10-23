@@ -1,0 +1,24 @@
+p{
+    border: 2px solid red;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    padding: 2rem;
+    border: 10px dotted gray;
+}
+
+ul {
+    border: 2px solid black;
+}
+
+li{
+    padding: 2rem;
+    margin: 1rem;
+    border: 3px dashed rgb(67, 67, 142);
+    opacity: .5;
+}
+

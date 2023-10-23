@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* flex and center things */
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img{
+    text-align: center;
+}
+
+/* image must be round-shaped */
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer{
+    padding: 2rem;
+    font-size: medium;
+    color: cadetblue;
+    letter-spacing: .2rem;
+}
